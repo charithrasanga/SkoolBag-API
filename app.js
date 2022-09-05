@@ -29,6 +29,8 @@ app.get("/", (req, res) => {
     res.redirect("/api-docs");
 });
 
+a
+
 app.get("/swagger.json", function(req, res) {
     res.setHeader("Content-Type", "application/json");
     res.send(swaggerDoc);
